@@ -5,9 +5,7 @@ export default function Home() {
   return (
     <main>
       TEST
-      <Link className="text-blue-200" href={"/test"}>
-        Next page
-      </Link>
+      <Link className="text-blue-200" href={"/"}>Go back</Link>
     </main>
   );
 }
